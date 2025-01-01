@@ -12,3 +12,6 @@
 
 --- To Execute the code successfully
 Runs on "localhost:3000" Server..
+
+## Screenshots
+![App Interface](./Weather app.png)
