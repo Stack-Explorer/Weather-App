@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="weather-app">
+    <header>
+      <h1>Weather App</h1>
+    </header>
+    
+    <main>
+      <div class="search-container">
+        <input type="text" id="city-input" placeholder="Enter city name..." />
+        <button id="search-btn">Search</button>
+      </div>
+
+      <div id="weather-result" class="weather-result">
+        <h2 id="city-name">City: --</h2>
+        <p id="temperature">Temperature: --°C</p>
+        <p id="description">Description: --</p>
+        <p id="humidity">Humidity: --%</p>
+      </div>
+    </main>
+
+    <footer>
+      <p>Created by Vinit Rajwani</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="index.js"></script>
+  </div>
+</body>
+</html>
