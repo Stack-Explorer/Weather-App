@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #f1f1f1, #e2e2e2);
+  }
+  
+  .app {
+    text-align: center;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    max-width: 90%;
+    transition: all 0.3s ease;
+  }
+  
+  .app:hover {
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+  }
+  
+  .title {
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .search input {
+    width: 65%;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    font-size: 1rem;
+  }
+  
+  .search button {
+    padding: 12px 18px;
+    background-color: #3d85c6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .search button:hover {
+    background-color: #1e6fa5;
+    transform: scale(1.05);
+  }
+  
+  .weather-info p,
+  .weather-info h2 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    animation: fadeIn 1s ease;
+    color: #555;
+  }
+  
+  .weather-info h2 {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .weather-info .highlight {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #1e6fa5;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* Precipitation styling */
+  .precipitation {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #0078d4;
+  }
+  
+  /* Adding temperature in Fahrenheit */
+  .temp-unit {
+    font-weight: normal;
+    font-size: 1rem;
+    color: #777;
+  }  
