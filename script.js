@@ -26,7 +26,6 @@ $(document).ready(function() {
       }
     });
 
-    // Fetch 5-day forecast;
   });
 
   // Function to display weather data
