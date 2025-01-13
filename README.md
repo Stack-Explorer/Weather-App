@@ -5,7 +5,11 @@
 2. CSS
 3. JS(jQuery)
 
-API used :- 
+make sure to replace API key 👇
+
+const apiKey = "Your_API_Key";
+
+API used  
 → OpenWeatherAPI
 
 ![Weather App Home](https://github.com/user-attachments/assets/daea7fa7-1584-43b3-83f5-3cb844f7cc8a)
